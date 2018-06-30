@@ -1,0 +1,13 @@
+<html>
+<head>
+	<title>Movie recommendation</title>
+</head>
+<body>
+	<h1>Your recommended movies are-></h1>
+<ul>
+    {% for k, v in data1.items %}
+        <li>{{ k }}: {{ v }}</li>
+    {% endfor %}
+</ul>
+</body>
+</html>
